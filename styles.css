@@ -7,4 +7,46 @@
 body{
   display: flex;
   flex-direction: column;
+  font-family: Poppins, sans-serif;
+}
+
+.nav{
+  display: flex;
+  padding: 30px;
+  gap: 50px;
+  align-items: center;
+  color: white;
+  background-color: #103964;
+}
+
+.nav ul{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  
+}
+
+#rightLi{
+  margin-left: auto;
+}
+
+.nav .logo{
+  font-size: 35px;
+  font-family: 'Abril Fatface', serif;
+  margin-top: -5px;
+}
+
+.nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 15px;
+  transition-duration: 0.2s;
+}
+
+.nav a:hover{
+  transition-duration: 0.2s;
+  background-color: white;
+  color: black;
 }
